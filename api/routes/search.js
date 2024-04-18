@@ -40,6 +40,7 @@ async function getSpotifyAccessToken() {
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'
             },
+
             auth: {
                 username:  process.env.SPOTIFY_CLIENT_ID,
                 password: process.env.SPOTIFY_CLIENT_SECRET
